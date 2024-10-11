@@ -1,0 +1,15 @@
+.card{
+    background-color: grey;
+    width: 400px;
+    padding: 10px;
+    text-align: center;
+}
+.App{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.card img{
+    width: 300px;
+    height: 200px;
+}
