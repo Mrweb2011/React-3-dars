@@ -39,6 +39,7 @@ function App() {
       url: "https://nout.uz/wp-content/uploads/2023/09/LG-Gram-14-1.jpg",
     },  
 ];
+
   return (
     <div className="App">
       {products.map((product) => (
@@ -46,7 +47,7 @@ function App() {
           <img src={product.url} alt="laptop-image" />
           <h1>Name is: {product.name}</h1>
           <h2>Price: {product.price}</h2>
-          <h3>Soni: {product.count}</h3>
+          <h3>Qolgan: {product.count} ta</h3>
         </div>
       ))}
     </div>

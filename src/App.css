@@ -3,6 +3,7 @@
     width: 400px;
     padding: 10px;
     text-align: center;
+    border-radius: 5px;
 }
 .App{
     display: flex;
@@ -10,6 +11,6 @@
     flex-wrap: wrap;
 }
 .card img{
-    width: 300px;
-    height: 200px;
+    width: 330px;
+    height: 230px;
 }
